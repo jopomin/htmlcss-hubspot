@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+
+}
+
+.access {
+  height: 10vh;
+  background: #f4f9fd;
+}
+
+.menu {
+  height: 10vh;
+  background: pink;
+}
+
+.hero-banner {
+  height: 80vh;
+  background: #fff2ee;
+}
+
+.top-strip {
+  height: 10vh;
+  background: #afebe4;
+}
+
+.main-area {
+  height: 160vh;
+  background: #f4f9fd;
+}
+
+.awards {
+  height: 90vh;
+  background: rgb(0,164,189);
+  background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,177,177,1) 60%, rgba(0,189,165,1) 100%);
+}
+
+.companies {
+  height: 90vh;
+  background: pink;
+}
+
+footer {
+  height: 70vh;
+  background: #32495b;
+}
