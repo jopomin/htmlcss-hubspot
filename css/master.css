@@ -47,6 +47,22 @@ hr {
   border-top: 1px solid #32495b;
 }
 
+p {
+  line-height: 1.75;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h2, h3 {
+  margin-bottom: 25px;
+}
+
 .btn {
   border-radius: 5px;
   text-align: center;
@@ -131,10 +147,6 @@ hr {
   margin: 25px 0;
 }
 
-.main-title p {
-  line-height: 1.75;
-}
-
 .main-title .smaller-text {
   font-size: 12px;
 }
@@ -148,14 +160,6 @@ hr {
 .block {
   margin: 5vh 0;
   border-radius: 15px;
-}
-
-.block h2 {
-  font-size: 36px;
-}
-
-.block h3 {
-  font-size: 30px;
 }
 
 .block h4 {
@@ -172,22 +176,14 @@ hr {
   margin-right: 20px;
 }
 
-.block h2 {
-  margin: 20px 0 25px;
-}
-
-.block h3 {
-  margin-bottom: 25px;
-}
-
-.block p {
-  line-height: 1.75;
-}
-
 .main-block {
   text-align: center;
   max-width: 60%;
   margin: 0 auto;
+}
+
+.main-block img {
+  margin-bottom: 20px;
 }
 
 .wblk {
@@ -278,10 +274,83 @@ ul.sec-wblk-kp {
 }
 
 .awards {
-  height: 90vh;
   background: rgb(0,164,189);
   background: linear-gradient(45deg, rgba(0,164,189,1) 0%, rgba(0,177,177,1) 60%, rgba(0,189,165,1) 100%);
+  color: #fff;
+  padding: 70px 0 50px;
 }
+
+.awards p {
+  color: #fff;
+}
+
+.awards-header {
+  text-align: center;
+}
+
+.award-numbers {
+  margin: 60px 0;
+}
+
+.an-row {
+  text-align: center;
+}
+
+.an-container {
+  display: inline-block;
+  height: 180px;
+  width: calc(100% / 4);
+  text-align: center;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  position: relative;
+}
+
+.f-row .an-container:last-child,
+.s-row .an-container:last-child {
+  border-right: 0;
+}
+
+.s-row .an-container {
+  border-bottom: 0;
+}
+
+.an-elements {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.an-elements img {
+  height: 40px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+}
+
+p.an-number {
+  font-size: 40px;
+  font-weight: 800;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+p.an-number::after {
+  content: '\002B';
+  vertical-align: middle;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-left: 5px;
+}
+
+p.an-text {
+  font-size: 14px;
+  vertical-align: middle;
+}
+
 
 .companies {
   height: 90vh;
