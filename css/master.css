@@ -551,6 +551,18 @@ footer hr {
   width: 120px;
 }
 
+.ft-bott-logo p a {
+  color: #fff;
+}
+
+.ft-bott-logo p a:hover {
+  color: #ff7a59;
+}
+
+.ft-bott-logo p a:active {
+  color: #00a4bd;
+}
+
 .ft-bottom ul {
   float: right;
   text-align: right;
