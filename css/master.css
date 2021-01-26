@@ -148,7 +148,7 @@ h2, h3 {
   margin: 25px 0;
 }
 
-.main-title .smaller-text {
+.smaller-text {
   font-size: 12px;
 }
 
@@ -354,7 +354,6 @@ p.an-text {
 
 
 .companies {
-  height: 90vh;
   background: #fff;
   color: #32495b;
   padding: 70px;
@@ -362,7 +361,7 @@ p.an-text {
 
 .customers {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 10vh;
 }
 
 .c-left {
@@ -394,6 +393,32 @@ p.an-text {
 .c-row + .c-row {
   margin-left: 30px;
 }
+
+.sg-box {
+  vertical-align: bottom;
+}
+
+.start-growing {
+  float: left;
+  width: 40%;
+  margin: 100px 50px 0 0;
+}
+
+.start-growing .b-big {
+  margin: 25px 0;
+}
+
+.sg-photo {
+  float: right;
+  width: 30%;
+  vertical-align: bottom;
+}
+
+.sg-photo img {
+  width: 100%;
+}
+
+
 
 footer {
   height: 70vh;
