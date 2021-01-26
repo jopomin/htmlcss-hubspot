@@ -18,6 +18,7 @@ body {
   margin: 0 auto;
 }
 
+
 .clearfix::after {
   content: '';
   display: table;
@@ -326,7 +327,7 @@ ul.sec-wblk-kp {
 }
 
 .an-elements img {
-  height: 40px;
+  height: 30px;
   margin-bottom: 8px;
   vertical-align: middle;
 }
@@ -354,7 +355,44 @@ p.an-text {
 
 .companies {
   height: 90vh;
-  background: pink;
+  background: #fff;
+  color: #32495b;
+  padding: 70px;
+}
+
+.customers {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.c-left {
+  max-width: 250px;
+  margin-right: 50px;
+  float: left;
+}
+
+.c-right {
+  float: right;
+}
+
+.c-number {
+  font-size: 44px;
+  font-weight: 800;
+}
+
+.comp-logos img {
+  max-height: 40px;
+  max-width: 150px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+.c-row {
+  margin-top: 30px;
+}
+
+.c-row + .c-row {
+  margin-left: 30px;
 }
 
 footer {
