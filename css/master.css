@@ -418,9 +418,103 @@ p.an-text {
   width: 100%;
 }
 
-
-
 footer {
-  height: 70vh;
   background: #32495b;
+  color: #dadee0;
+  padding: 50px;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  font-size: 0.9em;
+  margin-bottom: 50px;
+}
+
+th {
+  padding-bottom: 20px;
+  width: 25%;
+  color: #fff;
+}
+
+td {
+  padding: 8px 0;
+}
+
+tr:last-child td {
+  height: 120px;
+}
+
+tr:last-child td ul {
+  padding-top: 30px;
+}
+
+table ul li {
+  display: inline;
+}
+
+footer ul li a {
+  color: #dadee0;
+}
+
+footer a:hover {
+  color: #fff;
+  font-weight: 600;
+}
+
+
+.fa {
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.b-ft {
+  background: #dadee0;
+  color: #32495b;
+  font-weight: 400;
+}
+
+.b-ft:hover {
+  background: #fff;
+  color: #32495b;
+}
+
+.ft-lang {
+  text-align: center;
+}
+
+.ft-lang ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer hr {
+  height: 1px;
+  border: 0;
+  color: #dadee0;
+  background: #dadee0;
+  margin: 20px 0 30px;
+}
+
+.ft-bott-logo {
+  float: left;
+  color: #fff;
+}
+
+.ft-bott-logo img {
+  width: 120px;
+}
+
+.ft-bottom ul {
+  float: right;
+  text-align: right;
+}
+
+.ft-bottom ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.ft-bottom ul li:last-child {
+  margin-right: 0;
 }
