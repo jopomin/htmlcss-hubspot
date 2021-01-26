@@ -18,7 +18,6 @@ body {
   margin: 0 auto;
 }
 
-
 .clearfix::after {
   content: '';
   display: table;
@@ -36,7 +35,7 @@ ul li {
 nav ul > li {
   display: inline-block;
   line-height: 8vh;
-  margin-right: 25px;
+  margin-right: 15px;
   color: #32495b;
 }
 
@@ -64,13 +63,39 @@ h2, h3 {
   margin-bottom: 25px;
 }
 
+nav select {
+  background: none;
+  border: none;
+  padding: 3px;
+  color: #32495b;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+nav select:hover {
+  color: #ff7a59;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+nav select option {
+  color: #32495b;
+}
+
+nav select:focus {
+  outline: none;
+}
+
 #login-menu input[type=search] {
   background: #f4f9fd;
   border: none;
   margin-right: 10px;
   padding: 3px 8px;
   color: #32495b;
-  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 #login-menu input[type=search]:hover {
@@ -131,6 +156,19 @@ h2, h3 {
   color: #32495b;
 }
 
+#lang-menu li a:hover,
+#navigation li a:hover {
+  text-decoration: underline;
+  color: #ff7a59;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#lang-menu li:last-child::before {
+  content: '\007C';
+  margin-right: 15px;
+}
+
 #access-menus {
   height: 8vh;
   background: #f4f9fd;
@@ -154,6 +192,10 @@ h2, h3 {
 #nav-menus {
   height: 8vh;
   background: #fff;
+}
+
+#navigation {
+  text-align: right;
 }
 
 .hero-banner {
@@ -499,8 +541,7 @@ footer ul li a {
 }
 
 footer a:hover {
-  color: #fff;
-  font-weight: 600;
+  color: #ff7a59;
 }
 
 footer .fa {
