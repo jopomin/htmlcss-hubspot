@@ -372,27 +372,25 @@ ul.sec-wblk-kp {
   margin: 60px 0;
 }
 
-.an-row {
+.an-col {
   text-align: center;
-}
-
-.an-container {
   display: inline-block;
-  height: 180px;
   width: calc(100% / 4);
   text-align: center;
-  border-width: 0 1px 1px 0;
-  border-style: solid;
-  border-color: #fff;
-  position: relative;
+  border-right: 1px solid #fff;
 }
 
-.f-row .an-container:last-child,
-.s-row .an-container:last-child {
+.an-col:last-child {
   border-right: 0;
 }
 
-.s-row .an-container {
+.an-container {
+  height: 180px;
+  position: relative;
+  border-bottom: 1px solid #fff;
+}
+
+.an-container:last-child {
   border-bottom: 0;
 }
 
@@ -430,7 +428,6 @@ p.an-text {
   font-size: 14px;
   vertical-align: middle;
 }
-
 
 .companies {
   background: #fff;
